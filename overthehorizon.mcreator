@@ -1,22 +1,10 @@
 {
   "id_map": {},
-  "mod_elements": [
-    {
-      "name": "HhPickaxe",
-      "type": "tool",
-      "sortid": 1,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "hh_pickaxe"
-    }
-  ],
+  "mod_elements": [],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
-    "en_us": {
-      "item.overthehorizon.hh_pickaxe": "Hh Pickaxe"
-    }
+    "en_us": {}
   },
   "workspaceSettings": {
     "modid": "overthehorizon",
