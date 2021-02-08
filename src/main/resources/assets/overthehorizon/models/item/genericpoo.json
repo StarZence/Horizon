@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "overthehorizon:items/brisbane_tram_art"
+  }
+}
