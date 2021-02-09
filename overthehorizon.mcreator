@@ -9,12 +9,31 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "jade_axe"
+    },
+    {
+      "name": "Steel",
+      "type": "item",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "steel"
+    },
+    {
+      "name": "SteelRecipe",
+      "type": "recipe",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "steel_recipe"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "item.overthehorizon.steel": "Steel",
       "item.overthehorizon.jade_axe": "Ancient Jade Axe"
     }
   },
