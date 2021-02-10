@@ -1,29 +1,24 @@
 
 package net.mcreator.overthehorizon.item;
 
-import net.minecraftforge.registries.ObjectHolder;
-
-import net.minecraft.item.Rarity;
-import net.minecraft.item.ItemStack;
-import net.minecraft.item.ItemGroup;
-import net.minecraft.item.Item;
-import net.minecraft.block.BlockState;
-
-import net.mcreator.overthehorizon.OverthehorizonModElements;
-
 @OverthehorizonModElements.ModElement.Tag
 public class TungstenBarItem extends OverthehorizonModElements.ModElement {
+
 	@ObjectHolder("overthehorizon:tungsten_bar")
 	public static final Item block = null;
+
 	public TungstenBarItem(OverthehorizonModElements instance) {
 		super(instance, 17);
+
 	}
 
 	@Override
 	public void initElements() {
 		elements.items.add(() -> new ItemCustom());
 	}
+
 	public static class ItemCustom extends Item {
+
 		public ItemCustom() {
 			super(new Item.Properties().group(ItemGroup.MISC).maxStackSize(64).rarity(Rarity.COMMON));
 			setRegistryName("tungsten_bar");
@@ -43,5 +38,7 @@ public class TungstenBarItem extends OverthehorizonModElements.ModElement {
 		public float getDestroySpeed(ItemStack par1ItemStack, BlockState par2Block) {
 			return 1F;
 		}
+
 	}
+
 }

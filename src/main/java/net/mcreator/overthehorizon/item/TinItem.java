@@ -2,13 +2,13 @@
 package net.mcreator.overthehorizon.item;
 
 @OverthehorizonModElements.ModElement.Tag
-public class RawTungstenItem extends OverthehorizonModElements.ModElement {
+public class TinItem extends OverthehorizonModElements.ModElement {
 
-	@ObjectHolder("overthehorizon:raw_tungsten")
+	@ObjectHolder("overthehorizon:tin")
 	public static final Item block = null;
 
-	public RawTungstenItem(OverthehorizonModElements instance) {
-		super(instance, 15);
+	public TinItem(OverthehorizonModElements instance) {
+		super(instance, 13);
 
 	}
 
@@ -20,8 +20,8 @@ public class RawTungstenItem extends OverthehorizonModElements.ModElement {
 	public static class ItemCustom extends Item {
 
 		public ItemCustom() {
-			super(new Item.Properties().group(ItemGroup.MISC).maxStackSize(32).rarity(Rarity.COMMON));
-			setRegistryName("raw_tungsten");
+			super(new Item.Properties().group(ItemGroup.MISC).maxStackSize(64).rarity(Rarity.COMMON));
+			setRegistryName("tin");
 		}
 
 		@Override
@@ -37,12 +37,6 @@ public class RawTungstenItem extends OverthehorizonModElements.ModElement {
 		@Override
 		public float getDestroySpeed(ItemStack par1ItemStack, BlockState par2Block) {
 			return 1F;
-		}
-
-		@Override
-		public void addInformation(ItemStack itemstack, World world, List<ITextComponent> list, ITooltipFlag flag) {
-			super.addInformation(itemstack, world, list, flag);
-			list.add(new StringTextComponent("It's heavy isn't it?"));
 		}
 
 	}

@@ -4,12 +4,12 @@ package net.mcreator.overthehorizon.block;
 import net.minecraft.block.material.Material;
 
 @OverthehorizonModElements.ModElement.Tag
-public class TungstenOreBlock extends OverthehorizonModElements.ModElement {
+public class TinoreBlock extends OverthehorizonModElements.ModElement {
 
-	@ObjectHolder("overthehorizon:tungsten_ore")
+	@ObjectHolder("overthehorizon:tinore")
 	public static final Block block = null;
 
-	public TungstenOreBlock(OverthehorizonModElements instance) {
+	public TinoreBlock(OverthehorizonModElements instance) {
 		super(instance, 12);
 
 	}
@@ -26,17 +26,10 @@ public class TungstenOreBlock extends OverthehorizonModElements.ModElement {
 		public CustomBlock() {
 			super(
 
-					Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(6f, 10f).lightValue(0).harvestLevel(2)
+					Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(4f, 20f).lightValue(0).harvestLevel(2)
 							.harvestTool(ToolType.PICKAXE));
 
-			setRegistryName("tungsten_ore");
-		}
-
-		@Override
-		@OnlyIn(Dist.CLIENT)
-		public void addInformation(ItemStack itemstack, IBlockReader world, List<ITextComponent> list, ITooltipFlag flag) {
-			super.addInformation(itemstack, world, list, flag);
-			list.add(new StringTextComponent("Pretty hard, Pretty Pretty"));
+			setRegistryName("tinore");
 		}
 
 		@Override
@@ -45,7 +38,7 @@ public class TungstenOreBlock extends OverthehorizonModElements.ModElement {
 			List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 			if (!dropsOriginal.isEmpty())
 				return dropsOriginal;
-			return Collections.singletonList(new ItemStack(this, 1));
+			return Collections.singletonList(new ItemStack(TinItem.block, (int) (1)));
 		}
 
 	}
@@ -68,12 +61,12 @@ public class TungstenOreBlock extends OverthehorizonModElements.ModElement {
 
 					return super.place(world, generator, rand, pos, config);
 				}
-			}.withConfiguration(new OreFeatureConfig(OreFeatureConfig.FillerBlockType.create("tungsten_ore", "tungsten_ore", blockAt -> {
+			}.withConfiguration(new OreFeatureConfig(OreFeatureConfig.FillerBlockType.create("tinore", "tinore", blockAt -> {
 				boolean blockCriteria = false;
 				if (blockAt.getBlock() == Blocks.STONE.getDefaultState().getBlock())
 					blockCriteria = true;
 				return blockCriteria;
-			}), block.getDefaultState(), 16)).withPlacement(Placement.COUNT_RANGE.configure(new CountRangeConfig(4, 0, 0, 30))));
+			}), block.getDefaultState(), 13)).withPlacement(Placement.COUNT_RANGE.configure(new CountRangeConfig(16, 0, 0, 52))));
 		}
 	}
 

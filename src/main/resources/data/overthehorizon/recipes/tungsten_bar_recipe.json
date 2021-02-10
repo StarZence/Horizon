@@ -4,7 +4,7 @@
   "experience": 10,
   "cookingtime": 200,
   "ingredient": {
-    "item": "overthehorizon:raw_tungsten"
+    "item": "overthehorizon:unknown_element"
   },
   "result": {
     "item": "overthehorizon:tungsten_bar"
