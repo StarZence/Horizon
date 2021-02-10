@@ -131,21 +131,98 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "steeldoor"
+    },
+    {
+      "name": "TungstenOre",
+      "type": "block",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tungsten_ore"
+    },
+    {
+      "name": "LeonHardt",
+      "type": "painting",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "leon_hardt"
+    },
+    {
+      "name": "SteelKnife",
+      "type": "item",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "steel_knife"
+    },
+    {
+      "name": "RawTungsten",
+      "type": "item",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "raw_tungsten"
+    },
+    {
+      "name": "RawTungstenRecipe",
+      "type": "recipe",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "raw_tungsten_recipe"
+    },
+    {
+      "name": "TungstenBar",
+      "type": "item",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tungsten_bar"
+    },
+    {
+      "name": "TungstenBarRecipe",
+      "type": "recipe",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tungsten_bar_recipe"
+    },
+    {
+      "name": "SteelKniferecipe",
+      "type": "recipe",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "steel_kniferecipe"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item.overthehorizon.steel_chestplate_chestplate": "Steel Chestplate",
+      "item.overthehorizon.raw_tungsten": "Raw Tungsten",
       "item.overthehorizon.steel_repeater": "Steel Repeater",
       "block.overthehorizon.steel_wall": "Steel Wall",
       "item.overthehorizon.steel_chestplate_leggings": "Steel Chestplate Leggings",
-      "item.overthehorizon.jade_axe": "Ancient Jade Axe",
+      "block.overthehorizon.tungsten_ore": "Tungsten Ore",
+      "block.overthehorizon.steeldoor": "Steeldoor",
+      "item.overthehorizon.steel_chestplate_chestplate": "Steel Chestplate",
+      "item.overthehorizon.steel_knife": "Steel Knife",
+      "item.overthehorizon.tungsten_bar": "Tungsten Bar",
+      "block.overthehorizon.steelblock": "Steelblock",
       "item.overthehorizon.bullet": "Bullet",
+      "item.overthehorizon.jade_axe": "Ancient Jade Axe",
       "item.overthehorizon.steel_chestplate_boots": "Steel Chestplate Boots",
-      "item.overthehorizon.steel_chestplate_helmet": "Steel Chestplate Helmet",
-      "block.overthehorizon.steeldoor": "Steeldoor"
+      "item.overthehorizon.steel_chestplate_helmet": "Steel Chestplate Helmet"
     }
   },
   "workspaceSettings": {

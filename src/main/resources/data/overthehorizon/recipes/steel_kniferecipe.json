@@ -1,0 +1,20 @@
+{
+  "group": "overthehorizon",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1",
+    "2 "
+  ],
+  "key": {
+    "1": {
+      "item": "overthehorizon:steel"
+    },
+    "2": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "overthehorizon:steel_knife",
+    "count": 1
+  }
+}

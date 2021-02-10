@@ -1,0 +1,19 @@
+{
+  "group": "overthehorizon",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01"
+  ],
+  "key": {
+    "0": {
+      "item": "overthehorizon:tungsten_ore"
+    },
+    "1": {
+      "item": "overthehorizon:steel_knife"
+    }
+  },
+  "result": {
+    "item": "overthehorizon:raw_tungsten",
+    "count": 1
+  }
+}

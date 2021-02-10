@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "overthehorizon:blocks/tungsten_ore",
+    "up": "overthehorizon:blocks/tungsten_ore",
+    "north": "overthehorizon:blocks/tungsten_ore",
+    "east": "overthehorizon:blocks/tungsten_ore",
+    "south": "overthehorizon:blocks/tungsten_ore",
+    "west": "overthehorizon:blocks/tungsten_ore",
+    "particle": "overthehorizon:blocks/tungsten_ore"
+  }
+}
