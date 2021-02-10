@@ -1,0 +1,7 @@
+{
+  "parent": "block/door_bottom",
+  "textures": {
+    "bottom": "overthehorizon:blocks/steel_door",
+    "top": "overthehorizon:blocks/steel_door"
+  }
+}

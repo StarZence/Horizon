@@ -1,0 +1,39 @@
+{
+  "group": "overthehorizon",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "overthehorizon:steel"
+    },
+    "2": {
+      "item": "overthehorizon:steel"
+    },
+    "3": {
+      "item": "overthehorizon:steel"
+    },
+    "4": {
+      "item": "overthehorizon:steel"
+    },
+    "5": {
+      "item": "overthehorizon:steel"
+    },
+    "6": {
+      "item": "overthehorizon:steel"
+    },
+    "7": {
+      "item": "minecraft:iron_ingot"
+    },
+    "8": {
+      "item": "overthehorizon:steel"
+    }
+  },
+  "result": {
+    "item": "overthehorizon:steel_chestplate_chestplate",
+    "count": 1
+  }
+}

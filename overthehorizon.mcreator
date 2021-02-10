@@ -36,13 +36,116 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "steelblock"
+    },
+    {
+      "name": "Steelblockrecipe",
+      "type": "recipe",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "steelblockrecipe"
+    },
+    {
+      "name": "SteelWall",
+      "type": "block",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "steel_wall"
+    },
+    {
+      "name": "Steelwallrecipe",
+      "type": "recipe",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "steelwallrecipe"
+    },
+    {
+      "name": "SteelChestplate",
+      "type": "armor",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "steel_chestplate",
+      "metadata": {
+        "eh": false,
+        "el": false,
+        "eb": false,
+        "ec": true
+      }
+    },
+    {
+      "name": "SteelChestPlateRecipe",
+      "type": "recipe",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "steel_chest_plate_recipe"
+    },
+    {
+      "name": "Bullet",
+      "type": "item",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bullet"
+    },
+    {
+      "name": "SteelRepeaterRangedItemUsed",
+      "type": "procedure",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "steel_repeater_ranged_item_used",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SteelRepeater",
+      "type": "gun",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "steel_repeater"
+    },
+    {
+      "name": "Steeldoor",
+      "type": "block",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "steeldoor"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item.overthehorizon.jade_axe": "Ancient Jade Axe"
+      "item.overthehorizon.steel_chestplate_chestplate": "Steel Chestplate",
+      "item.overthehorizon.steel_repeater": "Steel Repeater",
+      "block.overthehorizon.steel_wall": "Steel Wall",
+      "item.overthehorizon.steel_chestplate_leggings": "Steel Chestplate Leggings",
+      "item.overthehorizon.jade_axe": "Ancient Jade Axe",
+      "item.overthehorizon.bullet": "Bullet",
+      "item.overthehorizon.steel_chestplate_boots": "Steel Chestplate Boots",
+      "item.overthehorizon.steel_chestplate_helmet": "Steel Chestplate Helmet",
+      "block.overthehorizon.steeldoor": "Steeldoor"
     }
   },
   "workspaceSettings": {

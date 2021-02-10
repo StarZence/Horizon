@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "overthehorizon:blocks/steel_wall",
+    "up": "overthehorizon:blocks/steel_wall",
+    "north": "overthehorizon:blocks/steel_wall",
+    "east": "overthehorizon:blocks/steel_wall",
+    "south": "overthehorizon:blocks/steel_wall",
+    "west": "overthehorizon:blocks/steel_wall",
+    "particle": "overthehorizon:blocks/steel_wall"
+  }
+}
