@@ -131,12 +131,31 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "steeldoor"
+    },
+    {
+      "name": "Tinore",
+      "type": "block",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tinore"
+    },
+    {
+      "name": "Tin",
+      "type": "item",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tin"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "block.overthehorizon.tinore": "Tinore",
       "item.overthehorizon.steel_chestplate_chestplate": "Steel Chestplate",
       "item.overthehorizon.steel_repeater": "Steel Repeater",
       "block.overthehorizon.steel_wall": "Steel Wall",
@@ -145,7 +164,8 @@
       "item.overthehorizon.bullet": "Bullet",
       "item.overthehorizon.steel_chestplate_boots": "Steel Chestplate Boots",
       "item.overthehorizon.steel_chestplate_helmet": "Steel Chestplate Helmet",
-      "block.overthehorizon.steeldoor": "Steeldoor"
+      "block.overthehorizon.steeldoor": "Steeldoor",
+      "item.overthehorizon.tin": "Tin"
     }
   },
   "workspaceSettings": {

@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "overthehorizon:blocks/tin_ore",
+    "up": "overthehorizon:blocks/tin_ore",
+    "north": "overthehorizon:blocks/tin_ore",
+    "east": "overthehorizon:blocks/tin_ore",
+    "south": "overthehorizon:blocks/tin_ore",
+    "west": "overthehorizon:blocks/tin_ore",
+    "particle": "overthehorizon:blocks/tin_ore"
+  }
+}
